@@ -1,0 +1,60 @@
+body{
+  background-color: gainsboro;
+}
+#main{
+  text-align: center;
+ /* background-color: black;*/
+}
+
+#nv1{
+  padding: 20px;
+  font-size: 12pt;
+  height: 100px;
+  background-color: black;
+  box-shadow: 1px 2px 1px 2px grey;
+}
+
+a{
+  border-radius: 9px;
+  background-color: white;
+  text-decoration: none;
+  padding: 4px;
+}
+
+#main{
+  color: white;
+}
+
+.p1{
+  margin-top: 50px;
+  display: flex;
+  justify-content:center;
+  height: 50px;
+  width: 50px;
+  padding: 50px;
+  border-radius: 100%;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid cyan;
+  background-color: white;
+  animation: gira 500ms cubic-bezier(.10, .43, .60, .7) infinite;
+}
+
+button{
+  border-radius: 20px;
+  font-size: 13pt;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+p{
+  opacity: 2;
+  margin-top: 50px;
+  font-size: 20pt;
+  color: grey;
+}
+
+@keyframes gira{
+  to{
+    transform: rotate(360deg);
+  }
+}
